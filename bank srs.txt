@@ -1,0 +1,38 @@
+*Introduction
+purpose:Define purpose of customer,how he must access  the customer and provide  him security during his transcations
+         payment,etc....
+
+*overall description
+ Product perspective: how the module fits into banks larger system
+ Product functions: Summary of functions : Login,view balance,transfer funds,add benificiary
+
+*Functional requiremnts
+ -authentication and user managment
+ -secure login
+ -forget password flow
+ -auto timeout session
+ -account overview
+ -display current balance
+ -show recent transcations
+ -Internal transfers
+ -External transfers
+ -request check book
+ -book/unblock atm card
+ -request cheque book
+ 
+
+*Non functional req
+ -security
+ -performance
+ -page load times under 2 seconds
+ -reliability/usability
+ -Role based access control
+
+*other req
+ database req:encrypted storage of customer data
+
+*Acceptance criteria
+ -user authentication
+ -fund transfer
+ -security and transfer
+ -account summary
